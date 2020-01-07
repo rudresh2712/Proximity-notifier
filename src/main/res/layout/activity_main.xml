@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="395dp"
+    android:layout_height="715dp"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="8dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="60sp"
+        android:layout_marginLeft="70sp"
+        android:layout_marginRight="110sp"
+        android:text="Signup Here"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="15sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="50sp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="50sp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="ID" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="35sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="50sp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Password" />
+
+    <EditText
+        android:id="@+id/color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="00sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="50sp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Fav color" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="75sp"
+        android:layout_marginVertical="15sp"
+        android:text="already account?, Login here" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="55sp"
+        android:text="Let`s start" />
+</LinearLayout>
